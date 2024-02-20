@@ -60,7 +60,7 @@ export const EpsQrGenerator = () => {
     [setRecipientMsg]
   )
 
-  const qrCode = `SPD*1.0*ACC:CZ2320100000002002141367*AM:${amount}*CC:CZK*PT:IP*MSG:${recipientMsg}*X-VS:${vSymbol}*`
+  const qrCode = `SPD*1.0*ACC:CZ6020100000002502141363*AM:${amount}*CC:CZK*PT:IP*MSG:${recipientMsg}*X-VS:${vSymbol}*`
 
   return (
     <div className={'epsQrGenerator'}>
